@@ -1,0 +1,111 @@
+body {
+	background: url('light_wool.png') repeat;
+	
+}
+
+
+h1 {
+	margin: 7px;
+	padding-bottom: 10px;
+	font-size: 68px;
+	text-shadow: 1px 1px 2px #424242;
+	color: #ECF0F1;
+}
+
+h2{
+	margin: 7px;
+	padding-bottom: 10px;
+	
+}
+
+h3 {
+	float:left;
+	margin: 7px;
+}
+div {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 20px;
+	
+}
+
+a.sketch1,a.sketch2 {
+	display: block;
+	padding: 120px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-decoration: none;
+	color: #ECF0F1;
+	
+}
+
+.sketch1 { 
+	background-color: #3498DB;
+	
+
+	
+}
+
+.sketch2 {
+	background-color: #E74C3C;
+	
+	
+}
+
+
+
+a.sketch1:hover {
+	background-color: #59b2e5;
+	font-size: 40px;
+	color: #2582d0;
+	
+	
+}
+
+a.sketch2:hover {
+	background-color:#ee7161;
+	font-size: 40px;
+	color: #df382b;
+}
+
+
+
+a.sketch1:visited {
+	color: #1b73c8;
+	
+}
+
+a.sketch2:visited {
+	color: #da2c20;
+}
+
+a.sketch1:active {
+	color: #1b73c8;
+}
+
+a.sketch2:active {
+	color: #da2c20;
+}
+
+img {
+	display: block;
+	margin: 75px auto auto auto;
+	
+}
+
+a.goback {
+	text-decoration: none;
+	color: #a2a6a7;
+}
+
+a.goback:hover {
+	color: #ECF0F1;
+}
+
+#footer {
+	text-shadow: 1px 1px 2px #424242;
+	color: #ECF0F1;
+	font-size: 12px;
+}
+
