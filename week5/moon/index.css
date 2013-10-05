@@ -1,0 +1,40 @@
+
+body{
+	background:url(background.png) repeat;
+	
+	
+}
+
+h1{ 
+  margin: 0px 200px -40px 180px;
+  padding: 50px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #282828;
+  text-shadow: 1px 3px 3px #F8F8F8;
+  font-size: 36px;
+  
+}
+	
+
+
+h2 {
+	text-shadow: -1px 1px 1px #999;
+}
+
+section {
+	padding: 10px 50px;
+	line-height: 25px;
+	margin: -10px 200px;
+	font-family: Tahoma, Geneva, sans-serif;
+	background: url(bk2.png) repeat;
+	box-shadow: 1px 1px 1px #666666;
+	border-radius: 20px;
+} 
+
+img {
+	display:block;
+	margin:0 auto;
+	box-shadow: 5px 5px 5px #666;
+}
+
+
