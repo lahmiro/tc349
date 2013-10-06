@@ -1,0 +1,68 @@
+body {
+	background-image:url(bk2.png);
+}
+
+@font-face
+{
+font-family: h1font;
+src: url(Computerfont.ttf);
+
+}
+
+
+h2{
+	font-weight: bold;
+}
+
+h1{
+   font-family: h1font;
+   color: white;
+   font-size: 50px;
+   margin: 0px 200px -40px 160px;
+   padding: 50px;
+} 
+
+
+h2 {
+	font-family:h1font;
+	font-size: 30px;
+}
+
+section {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 10px 60px;
+	line-height: 24px;
+	margin: -10px 200px;
+	background-color: white;
+	box-shadow: 1px 1px 1px #666666;
+	border-radius: 15px;
+	font-size: 15px;
+}
+
+img {
+	display:block;
+	margin:0 auto;
+	box-shadow: 3px 3px 3px #666;
+	padding: 5px;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #3BA7BF;
+}
+
+a:hover {
+	color: #D7EFF2;
+	background-color: #3BA7BF;
+	padding: 3px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+article {
+      padding: 10px;
+      margin: 0 auto;
+}
+
