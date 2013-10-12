@@ -2,7 +2,7 @@
 	
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	opacity: .85;
+	opacity: .9;
 	
 }
 
@@ -38,22 +38,24 @@ p.a2 {
 	color: #fff8f2;
 }
 
-p.a1:hover {
-	background-color: #8cc6c7;
-	
-}
+
 
 p.a1:hover, p.a2:hover{ 
 	-webkit-transition: background 0.3s ease; 
 	-moz-transition: background 0.3s ease; 
 	-o-transition: background 0.3s ease; 
 	transition: background 0.3s ease;
-	opacity: 1.0;
-		
+	
+}
+
+p.a1:hover {
+	background: rgba(140, 198, 199, .8);
+	color: #7b726b;
+	
 }
 
 p.a2:hover {
-	background-color: #e95959;
+	background: rgba(226, 92, 92, .8);
 	
 }
 
