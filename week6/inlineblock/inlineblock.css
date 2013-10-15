@@ -1,16 +1,19 @@
 .container {
-	
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	opacity: .9;
-	
+	opacity: .9;	
 }
 
-body{
+body {
 	margin: 50px 3%;
 	background: url(bk.png);
-
 }
+	
+
+.articles {
+	margin-left: 230px;
+}
+
 
 p.a1, p.a2 {
 	width: 240px;
