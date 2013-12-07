@@ -90,12 +90,12 @@ textarea {
 /*main CSS here*/
 
 nav ul li a, a.worktitle, #title, .quote, .contact a {
-	font-family: kaffeesatz, sans-serif;
+	font-family: 'Yanone Kaffeesatz', Impact, Charcoal, sans-serif;
 	
 }
 
 #biocontent, .intro, footer, #credits {
-	font-family: 'Myriad Pro', sans-serif;
+	font-family: 'Myriad Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
 }
 
@@ -220,7 +220,7 @@ nav ul li a:hover, a.worktitle:hover {
   border-radius: 3px;
 }
 
-#credits {
+#credits, #ani {
   display: block;
   position: relative;
   top: 20px;
@@ -238,25 +238,22 @@ nav ul li a:hover, a.worktitle:hover {
 
 footer {
 	display: block;
+	position:absolute;
     font-weight: 100;
     clear:both;
     color: #B3C8CC;
 	text-shadow: 0.5px 0.5px 0px #E0FAFF;
 	text-align: center;
-	margin: 0;
-	padding: 0;
-	
 	width:100%;
-
-	position:absolute;
 	bottom:0;
-	left:0;
+	padding-top: 20px;
 		
 }
 
 footer p{
 	margin: 0;
 }
+
 
 
 #credits p {
