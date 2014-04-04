@@ -89,7 +89,7 @@ textarea {
    ========================================================================== */
 /*main CSS here*/
 
-nav ul li a, a.worktitle, #title, .quote, .contact a {
+nav ul li a, a.worktitle, #title, .quote, .contact a, .portfolio {
 	font-family: 'Yanone Kaffeesatz', Impact, Charcoal, sans-serif;
 	
 }
@@ -135,15 +135,16 @@ nav ul li a{
 	font-size: 24px;	
 }
 
-nav ul li a, a.worktitle {
+nav ul li a, a.worktitle, a.portfolio {
 	text-decoration: none;
 	color: rgba(129,211,255,0.7);
 	text-transform: uppercase;
 	
 }
 
+	
 
-nav ul li a:hover, a.worktitle:hover {
+nav ul li a:hover, a.worktitle:hover, a.portfolio:hover {
 	text-shadow: 2px 2px 0 rgba(255,0,180,0.5);
 	transition: 0.4s;
 	-webkit-transition: 0.4s;
@@ -153,6 +154,14 @@ nav ul li a:hover, a.worktitle:hover {
 }
 
 
+#port {
+	display: block;
+	margin: 0 -30px -20px 25%;
+	position: relative;
+	font-size: 45px;
+	text-align: center;
+	width: 200px;
+}
 
 #title {
 	display: inline-block;
